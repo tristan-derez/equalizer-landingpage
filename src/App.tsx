@@ -3,18 +3,18 @@ import "./App.css";
 import { ChakraProvider, Flex, extendTheme } from "@chakra-ui/react";
 import { QueryClient, QueryClientProvider } from "react-query";
 
-import { Demo } from "./components/Demo";
+import { NavBar } from "./components/NavBar";
 
 const queryClient = new QueryClient();
 
-const theme = extendTheme({ config: { initialColorMode: "light" } });
+const theme = extendTheme({ config: { initialColorMode: "dark" } });
 
 function App() {
     return (
         <QueryClientProvider client={queryClient}>
             <ChakraProvider theme={theme}>
                 <Flex direction="column" boxSize="100%">
-                    <Demo />
+                    <NavBar />
                 </Flex>
             </ChakraProvider>
         </QueryClientProvider>
