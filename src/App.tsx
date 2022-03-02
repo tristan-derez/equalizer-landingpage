@@ -5,7 +5,7 @@ import { QueryClient, QueryClientProvider } from "react-query";
 
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
-import { Main } from "./components/Main";
+import { Main } from "./components/MainContent";
 import { NavBar } from "./components/NavBar";
 
 const queryClient = new QueryClient();
