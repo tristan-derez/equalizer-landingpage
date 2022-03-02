@@ -15,7 +15,13 @@ function App() {
     return (
         <QueryClientProvider client={queryClient}>
             <ChakraProvider theme={theme}>
-                <Flex direction="column" boxSize="100%">
+                <Flex
+                    direction="column"
+                    boxSize="100%"
+                    bgImage="url('./images/bg-main-mobile.png')"
+                    bgPosition="top"
+                    bgRepeat="no-repeat"
+                >
                     <NavBar />
                     <Hero />
                     <Main />
