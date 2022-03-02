@@ -3,6 +3,7 @@ import "./App.css";
 import { ChakraProvider, Flex, extendTheme } from "@chakra-ui/react";
 import { QueryClient, QueryClientProvider } from "react-query";
 
+import { Hero } from "./components/Hero";
 import { NavBar } from "./components/NavBar";
 
 const queryClient = new QueryClient();
@@ -15,6 +16,7 @@ function App() {
             <ChakraProvider theme={theme}>
                 <Flex direction="column" boxSize="100%">
                     <NavBar />
+                    <Hero />
                 </Flex>
             </ChakraProvider>
         </QueryClientProvider>
