@@ -18,6 +18,7 @@ function App() {
                 <Flex direction="column" boxSize="100%">
                     <NavBar />
                     <Hero />
+                    <Main />
                 </Flex>
             </ChakraProvider>
         </QueryClientProvider>
