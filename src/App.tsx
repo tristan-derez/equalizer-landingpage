@@ -7,10 +7,9 @@ import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { Main } from "./components/MainContent";
 import { NavBar } from "./components/NavBar";
+import { theme } from "./theme";
 
 const queryClient = new QueryClient();
-
-const theme = extendTheme({ config: { initialColorMode: "dark" } });
 
 function App() {
     return (
