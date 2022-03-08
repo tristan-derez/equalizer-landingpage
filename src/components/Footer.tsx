@@ -3,7 +3,14 @@ import { AiFillFacebook, AiFillInstagram, AiOutlineTwitter } from "react-icons/a
 
 export const Footer = () => {
     return (
-        <Flex px="24px" mt="540px" direction={["column"]} pb="80px" color="marine-blue">
+        <Flex
+            pl={["24px", "24px", 0, 0]}
+            ml={[0, 0, "39px", "165px"]}
+            mt="540px"
+            direction={["column"]}
+            pb="80px"
+            color="marine-blue"
+        >
             <Image src="/images/logo.svg" alt="logo" w="146px" h="32px" />
             <Text pt="32px" fontSize="16px" lineHeight="26px">
                 All rights reserved © Equalizer 2021 Have any problems? Contact us via social media or email us at
