@@ -18,7 +18,7 @@ function App() {
                 <Flex
                     direction="column"
                     boxSize="100%"
-                    bgImage="url('./images/bg-main-mobile.png')"
+                    bgImage={["url('./images/bg-main-mobile.png')", "url('./images/bg-main-tablet.png')", "url('./images/bg-main-desktop.png')"]}
                     bgPosition="top"
                     bgRepeat="no-repeat"
                 >
