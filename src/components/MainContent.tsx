@@ -32,7 +32,7 @@ export const Main = () => {
                 />
                 <Box
                     w={["100%", "100%", "399px", "446px"]}
-                    minHeight="546px"
+                    minHeight={["546px", "546px", "546px", "625px"]}
                     bg="tomato-red"
                     zIndex="3"
                     px="37px"
@@ -44,7 +44,12 @@ export const Main = () => {
                     <Heading as="h2" pt="48px" fontWeight={700} fontSize="32px" lineHeight="40px">
                         Premium EQ
                     </Heading>
-                    <Text pt="12px" fontWeight="400" fontSize="18px" lineHeight="28px">
+                    <Text
+                        pt="12px"
+                        fontWeight="400"
+                        fontSize={["18px", "18px", "18px", "20px"]}
+                        lineHeight={["28px", "28px", "28px", "34px"]}
+                    >
                         Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take your
                         listening experience to a whole new level and access all our incredible features!
                     </Text>
@@ -70,7 +75,7 @@ export const Main = () => {
                             aria-label="iOS Download"
                             w={["296px", "296px", "296px", "333px"]}
                             h="61px"
-                            mt="32px"
+                            mt={["32px", "32px", "32px", "46px"]}
                             borderRadius="12px"
                             fontWeight={700}
                             lineHeight="32px"
