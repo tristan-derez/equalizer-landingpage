@@ -7,7 +7,7 @@ export const Main = () => {
         <Flex justifyContent="center">
             <Box
                 w={["100%", "100%", "696px", "1110px"]}
-                mt={["166px"]}
+                mt={["166px", "166px", "249px", "321px"]}
                 mx={[0, 0, 0, "165px"]}
                 height="600px"
                 bg="marine-blue"
