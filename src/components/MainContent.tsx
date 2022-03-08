@@ -73,7 +73,7 @@ export const Main = () => {
                             bg="marine-blue"
                             variant="solid"
                             aria-label="iOS Download"
-                            w={["296px", "296px", "296px", "333px"]}
+                            w="100%"
                             h="61px"
                             mt={["32px", "32px", "32px", "46px"]}
                             borderRadius="12px"
@@ -90,7 +90,7 @@ export const Main = () => {
                             color="marine-blue"
                             variant="solid"
                             aria-label="Android Download"
-                            w={["296px", "296px", "296px", "333px"]}
+                            w="100%"
                             h="61px"
                             mt="16px"
                             borderRadius="12px"
