@@ -15,8 +15,8 @@ export const Header = () => {
             <Flex
                 direction="column"
                 pt={["64px", "64px", "95px", "127px"]}
-                pl={["24px", "24px", 0, 0]}
-                ml={[0, 0, "39px", "165px"]}
+                px={["24px", "24px", 0, 0]}
+                mx={[0, 0, "39px", "165px"]}
                 color="marine-blue"
                 w={["100%", "100%", "520px", "1015px"]}
             >
@@ -41,6 +41,15 @@ export const Header = () => {
                     control, reverb, and more!
                 </Text>
             </Flex>
+            <Image
+                src="./images/bg-pattern-1.svg"
+                w={[0, 0, "266.67px", "313px"]}
+                h={[0, 0, "400px", "468px"]}
+                position="absolute"
+                top="-40px"
+                right={["0", "0", "-36px", "0"]}
+                display={["none", "none", "block"]}
+            />
         </Flex>
     );
 };

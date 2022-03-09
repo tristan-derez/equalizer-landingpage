@@ -71,6 +71,7 @@ export const Main = () => {
                         <Button
                             leftIcon={<BsApple />}
                             bg="marine-blue"
+                            _hover={{ bg: "clear-blue" }}
                             variant="solid"
                             aria-label="iOS Download"
                             w="100%"
@@ -87,6 +88,7 @@ export const Main = () => {
                         <Button
                             leftIcon={<AiFillAndroid />}
                             bg="white"
+                            _hover={{ bg: "clear-orange" }}
                             color="marine-blue"
                             variant="solid"
                             aria-label="Android Download"
