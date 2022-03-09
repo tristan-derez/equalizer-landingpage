@@ -2,47 +2,53 @@ import { Flex, Icon, Image, Text, Button } from "@chakra-ui/react";
 
 export const Footer = () => {
     return (
-        <Flex
-            px={["24px", "24px", "39px", "165px"]}
-            mt={["500px", "500px", "183px", "202px"]}
-            direction={["column", "column", "row", "row"]}
-            justifyContent={["flex-start", "flex-start", "space-between"]}
-            pb="80px"
-            color="marine-blue"
-            role="footer"
-        >
+        <footer>
             <Flex
-                direction={["column", "column", "column", "row"]}
-                justifyContent={["flex-start", "flex-start", "flex-start", "space-between"]}
-                width={["auto", "auto", "auto", "650px"]}
+                px={["24px", "24px", "39px", "165px"]}
+                mt={["500px", "500px", "183px", "202px"]}
+                direction={["column", "column", "row", "row"]}
+                justifyContent={["flex-start", "flex-start", "space-between"]}
+                pb="80px"
+                color="marine-blue"
             >
-                <Image src="/images/logo.svg" alt="logo" w="146px" h="32px" />
+                <Flex
+                    direction={["column", "column", "column", "row"]}
+                    justifyContent={["flex-start", "flex-start", "flex-start", "space-between"]}
+                    width={["auto", "auto", "auto", "650px"]}
+                >
+                    <Image src="/images/logo.svg" alt="logo" w="146px" h="32px" />
 
-                <Text pt={["32px", "32px", "32px", 0]} fontSize="16px" lineHeight="26px" w={["auto", "327px", "366px"]}>
-                    All rights reserved © Equalizer 2021
-                    <br /> Have any problems? Contact us via social media or email us at
-                    <br className="scd-br--footer" />
-                    <b> equalizer@example.com</b>
-                </Text>
+                    <Text
+                        pt={["32px", "32px", "32px", 0]}
+                        fontSize="16px"
+                        lineHeight="26px"
+                        w={["auto", "327px", "366px"]}
+                    >
+                        All rights reserved © Equalizer 2021
+                        <br /> Have any problems? Contact us via social media or email us at
+                        <br className="scd-br--footer" />
+                        <b> equalizer@example.com</b>
+                    </Text>
+                </Flex>
+                <Flex
+                    pt={["64px", "64px", 0, 0]}
+                    w="100px"
+                    h="20px"
+                    justifyContent="space-between"
+                    alignSelf={["flex-start", "flex-start", "center", "center"]}
+                >
+                    <ButtonIcon>
+                        <FacebookIcon _hover={{ fill: "#FA7453" }} />
+                    </ButtonIcon>
+                    <ButtonIcon>
+                        <InstagramIcon />
+                    </ButtonIcon>
+                    <ButtonIcon>
+                        <TwitterIcon />
+                    </ButtonIcon>
+                </Flex>
             </Flex>
-            <Flex
-                pt={["64px", "64px", 0, 0]}
-                w="100px"
-                h="20px"
-                justifyContent="space-between"
-                alignSelf={["flex-start", "flex-start", "center", "center"]}
-            >
-                <ButtonIcon>
-                    <FacebookIcon _hover={{ fill: "#FA7453" }} />
-                </ButtonIcon>
-                <ButtonIcon>
-                    <InstagramIcon />
-                </ButtonIcon>
-                <ButtonIcon>
-                    <TwitterIcon />
-                </ButtonIcon>
-            </Flex>
-        </Flex>
+        </footer>
     );
 };
 
