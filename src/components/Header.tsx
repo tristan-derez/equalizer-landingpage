@@ -43,6 +43,7 @@ export const Header = () => {
             </Flex>
             <Image
                 src="./images/bg-pattern-1.svg"
+                alt=""
                 w={[0, 0, "266.67px", "313px"]}
                 h={[0, 0, "400px", "468px"]}
                 position="absolute"
