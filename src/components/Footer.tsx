@@ -9,6 +9,7 @@ export const Footer = () => {
             justifyContent={["flex-start", "flex-start", "space-between"]}
             pb="80px"
             color="marine-blue"
+            role="footer"
         >
             <Flex
                 direction={["column", "column", "column", "row"]}

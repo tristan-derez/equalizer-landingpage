@@ -2,7 +2,7 @@ import { Flex, Heading, Text, Image } from "@chakra-ui/react";
 
 export const Header = () => {
     return (
-        <Flex direction="column">
+        <Flex direction="column" role="banner">
             <Image
                 src="/images/logo.svg"
                 alt="logo"

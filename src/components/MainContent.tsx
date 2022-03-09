@@ -4,7 +4,7 @@ import { BsApple } from "react-icons/bs";
 
 export const Main = () => {
     return (
-        <Flex justifyContent="center">
+        <Flex justifyContent="center" role="main">
             <Box
                 w="100%"
                 mt={["166px", "166px", "249px", "321px"]}
