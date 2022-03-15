@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://ibb.co/rsw8pg2)
+![desktop](https://ibb.co/rsw8pg2)
 
 ### Links
 
