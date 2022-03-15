@@ -28,10 +28,10 @@ function App() {
                         "top -250px right -200px",
                         "top -250px right -200px",
                         "top -150px left -200px",
-                        "top -200px left -200px",
+                        "top -150 left -20px",
                     ]}
                     bgRepeat="no-repeat"
-                    bgSize={["cover", "cover", "cover", "100%"]}
+                    bgSize={["100%"]}
                 >
                     <Header />
                     <Main />
