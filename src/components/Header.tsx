@@ -6,7 +6,7 @@ export const Header = () => {
             direction="column"
             role="banner"
             bgImage={["", "", "images/bg-pattern-1.svg"]}
-            bgSize={["266.67px", "313px"]}
+            bgSize={["0", "0", "266.67px", "313px"]}
             bgRepeat="no-repeat"
             bgPosition={["", "", "top -32px right -35px", "top -32px right 0"]}
         >

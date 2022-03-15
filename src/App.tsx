@@ -27,7 +27,7 @@ function App() {
                     bgPosition={[
                         "top -250px right -200px",
                         "top -250px right -200px",
-                        "top -350px right -200px",
+                        "top -150px left -200px",
                         "top -200px left -200px",
                     ]}
                     bgRepeat="no-repeat"
