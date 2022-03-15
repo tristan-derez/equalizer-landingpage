@@ -28,9 +28,8 @@ Users should be able to:
 ### Screenshot
 
 ![desktop](https://i.ibb.co/XbdYqnv/Vite-App.png)
-![tablet](https://i.ibb.co/8m7jFNj/Vite-App-1.png)
-
-I am not adding mobile screenshot because it would be a bit too long 😅 
+![tablet](https://i.ibb.co/ysL2n9N/mobile-1.png)
+![mobile](https://i.ibb.co/CmLJ7zQ/mobile.png)
 
 ### Links
 
