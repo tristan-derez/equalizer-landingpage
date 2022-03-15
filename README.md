@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://ibb.co/rsw8pg2)
+![desktop](https://i.ibb.co/fvx6Nbd/Vite-App.png)
 
 ### Links
 
