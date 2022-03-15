@@ -15,36 +15,24 @@ function App() {
     return (
         <QueryClientProvider client={queryClient}>
             <ChakraProvider theme={theme}>
-                <Flex direction="column" boxSize="100%">
-                    <Image
-                        src="./images/bg-main-mobile.png"
-                        alt="background"
-                        position="absolute"
-                        zIndex="-1"
-                        display={["block", "block", "none", "none"]}
-                        top="-90px"
-                        right="0px"
-                    />
-                    <Image
-                        src="./images/bg-main-tablet.png"
-                        alt="background"
-                        position="absolute"
-                        zIndex="-1"
-                        display={["none", "none", "block", "none"]}
-                        top="-50px"
-                        left="0"
-                        w="100%"
-                    />
-                    <Image
-                        src="./images/bg-main-desktop.png"
-                        alt="background"
-                        position="absolute"
-                        zIndex="-1"
-                        display={["none", "none", "none", "block"]}
-                        top="0px"
-                        left="-200px"
-                        w="100%"
-                    />
+                <Flex
+                    direction="column"
+                    boxSize="100%"
+                    backgroundImage={[
+                        "url('images/bg-main-mobile.png')",
+                        "url('images/bg-main-mobile.png')",
+                        "url('images/bg-main-tablet.png')",
+                        "url('images/bg-main-desktop.png')",
+                    ]}
+                    bgPosition={[
+                        "top -250px right -200px",
+                        "top -250px right -200px",
+                        "top -350px right -200px",
+                        "top -200px left -200px",
+                    ]}
+                    bgRepeat="no-repeat"
+                    bgSize={["cover", "cover", "cover", "100%"]}
+                >
                     <Header />
                     <Main />
                     <Footer />

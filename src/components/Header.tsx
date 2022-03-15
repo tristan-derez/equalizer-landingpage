@@ -2,7 +2,14 @@ import { Flex, Heading, Text, Image } from "@chakra-ui/react";
 
 export const Header = () => {
     return (
-        <Flex direction="column" role="banner">
+        <Flex
+            direction="column"
+            role="banner"
+            bgImage={["", "", "images/bg-pattern-1.svg"]}
+            bgSize={["266.67px", "313px"]}
+            bgRepeat="no-repeat"
+            bgPosition={["", "", "top -32px right -35px", "top -32px right 0"]}
+        >
             <Image
                 src="/images/logo.svg"
                 alt="logo"
@@ -41,16 +48,6 @@ export const Header = () => {
                     control, reverb, and more!
                 </Text>
             </Flex>
-            <Image
-                src="./images/bg-pattern-1.svg"
-                alt=""
-                w={[0, 0, "266.67px", "313px"]}
-                h={[0, 0, "400px", "468px"]}
-                position="absolute"
-                top="-40px"
-                right={["0", "0", "-36px", "0"]}
-                display={["none", "none", "block"]}
-            />
         </Flex>
     );
 };
