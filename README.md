@@ -14,7 +14,6 @@ This is a solution to the [Equalizer landing page challenge on Frontend Mentor](
     -   [Continued development](#continued-development)
 -   [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -37,6 +36,8 @@ Users should be able to:
 -   Live Site URL: [https://equalizer-landingpage.vercel.app/](https://equalizer-landingpage.vercel.app/)
 
 ## My Process
+
+Mobile first workflow
 
 ### Built with
 
